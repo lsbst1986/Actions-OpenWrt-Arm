@@ -38,7 +38,7 @@ rm -rf feeds/helloworld/hysteria
 # git clone -b main https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 
 # 修改luci-app-adguardhome
-rm -rf feeds/kenzok8/luci-app-adguardhome
+#rm -rf feeds/kenzok8/luci-app-adguardhome
 
 # 修改luci-app-aliyundrive-webdav
 #rm -rf feeds/luci/applications/luci-app-aliyundrive-webdav
