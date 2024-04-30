@@ -17,14 +17,14 @@
 git clone --depth 1 https://github.com/Gabrielxzx/Gabrielxzx-luci.git package/Gabrielxzx
 
 #添加luci-app-ikoolproxy
-git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+#git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 
 #添加1806版本 luci-app-unblockneteasemusic
-rm -rf feeds/kenzok8/luci-app-unblockneteasemusic
-git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#rm -rf feeds/kenzok8/luci-app-unblockneteasemusic
+#git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # 修改luci-theme-argon(更换为jerrykuku库)
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 # git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
@@ -41,15 +41,15 @@ rm -rf feeds/helloworld/hysteria
 rm -rf feeds/kenzok8/luci-app-adguardhome
 
 # 修改luci-app-aliyundrive-webdav
-rm -rf feeds/luci/applications/luci-app-aliyundrive-webdav
-rm -rf feeds/packages/multimedia/aliyundrive-webdav
+#rm -rf feeds/luci/applications/luci-app-aliyundrive-webdav
+#rm -rf feeds/packages/multimedia/aliyundrive-webdav
 
 # 添加luci-app-go-aliyundrive-webdav(jerrykuku库)
-git clone https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav.git package/luci-app-go-aliyundrive-webdav
-git clone https://github.com/jerrykuku/go-aliyundrive-webdav.git package/go-aliyundrive-webdav
+#git clone https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav.git package/luci-app-go-aliyundrive-webdav
+#git clone https://github.com/jerrykuku/go-aliyundrive-webdav.git package/go-aliyundrive-webdav
 
 # 添加luci-app-jd-dailybonus(jerrykuku库)
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 
 # 修改SmartDNS
 # rm -rf feeds/kenzok8/luci-app-smartdns
