@@ -17,13 +17,13 @@ sed -i 's/OpenWrt/FriendlyARM/g' package/base-files/files/bin/config_generate
 # wget -P target/linux/rockchip/patches-6.1 https://raw.githubusercontent.com/Gabrielxzx/Gabrielxzx-luci/master/patchs/18.06/target/linux/rockchip/patches-6.1/090-v6.3-net-phy-motorcomm-add-LED-configuration-for-yt8521-yt8531.patch
 
 # FIX SUNXI SD ERROR
-rm -rf package/boot/uboot-sunxi/patches/261-sunxi-add-popstick-defconfig.patch
+#rm -rf package/boot/uboot-sunxi/patches/261-sunxi-add-popstick-defconfig.patch
 
 # DIY Information
 sed -i 's/os.date()/os.date("%Y-%m-%d %a %H:%M:%S")/g' package/lean/autocore/files/arm/index.htm
 sed -i 's/os.date()/os.date("%Y-%m-%d %a %H:%M:%S")/g' package/lean/autocore/files/x86/index.htm
-sed -i "s/OpenWrt /OpenWrt $(TZ=UTC-8 date "+%Y.%m.%d") \//g" package/lean/default-settings/files/zzz-default-settings
-sed -i "/config/a\sed -i 's\/openwrt.org\/baidu.com\/g' \/etc\/config\/luci" package/lean/default-settings/files/zzz-default-settings
+#sed -i "s/OpenWrt /OpenWrt $(TZ=UTC-8 date "+%Y.%m.%d") \//g" package/lean/default-settings/files/zzz-default-settings
+#sed -i "/config/a\sed -i 's\/openwrt.org\/baidu.com\/g' \/etc\/config\/luci" package/lean/default-settings/files/zzz-default-settings
 wget -P files/etc/init.d https://raw.githubusercontent.com/Gabrielxzx/Gabrielxzx-luci/master/files/diy_init.d/diy_static_ip
 
 # add files
